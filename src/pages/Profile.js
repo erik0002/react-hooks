@@ -70,12 +70,10 @@ export const Profile = ({match}) => {
                                     <strong>Website: </strong> {blog}
                                 </li>}
                             </ul>
-                            <div className="row">
                                 <div className="badge bg-primary">Подписчики: {followers}</div>
                                 <div className="badge bg-secondary">Подписан: {following}</div>
                                 <div className="badge bg-danger">Репозитории: {public_repos}</div>
                                 <div className="badge bg-info">Gists: {public_gists}</div>
-                            </div>
                         </div>
                     </div>
                 </div>
